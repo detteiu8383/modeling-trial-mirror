@@ -5,6 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
   title: 'モデリング体験会',
   description: '東京工業大学デジタル創作同好会主催のモデリング体験会の資料です',
+  base: '/modeling-trial/',
 
   themeConfig: {
     navbar: [
