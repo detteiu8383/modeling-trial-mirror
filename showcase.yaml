@@ -1,0 +1,4 @@
+type: "static"
+https: "on"
+work_dir: docs/.vuepress/dist
+startup: npm run build
