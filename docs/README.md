@@ -1,3 +1,7 @@
-# モデリング体験会
-
-東京工業大学デジタル創作同好会のモデリング体験会の資料です。
+---
+home: true
+actions:
+  - text: はじめる
+    link: /guide/
+    type: primary
+---
