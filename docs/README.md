@@ -1,11 +1,5 @@
----
-home: true
-actions:
-  - text: はじめる
-    link: /guide/
-    type: primary
----
+# 新歓3DCG体験会
 
-:::danger ToDo
-イイ感じにする
-:::
+本ページは東京工業大学デジタル創作同好会traPが主催する、新歓3DCG体験会の資料です。
+
+画面上部のナビバー、または画面左上のメニュー内の [はじめに](guide/README.md) に進んでください。
