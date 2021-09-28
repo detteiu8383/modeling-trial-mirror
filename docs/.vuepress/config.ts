@@ -7,6 +7,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   description: '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
   base: '/modeling-trial/',
 
+  extendsMarkdown: md => {
+    md.use(require("markdown-it-footnote"));
+  },
+
   themeConfig: {
     navbar: [
       {
@@ -26,13 +30,13 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/guide/': [
         {
           text: "はじめに",
-          children: ['/guide/README.md', '/guide/notes.md', '/guide/blender-installation.md']
+          children: ['/guide/README.md', '/guide/notes.md', '/guide/preparation.md', '/guide/blender-installation.md']
         }
       ],
       '/lectures/': [
         {
           text: '座学編',
-          children: ['/lectures/README.md']
+          children: ['/lectures/README.md', '/lectures/what-can.md', '/lectures/how-to.md', '/lectures/what-used.md']
         }
       ],
       '/practical/': [
