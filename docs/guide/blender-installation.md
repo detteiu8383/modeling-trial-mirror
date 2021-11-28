@@ -1,18 +1,20 @@
 # Blenderのインストール手順
 
-Blenderのインストール手順を紹介します。以下に従い、インストールと日本語化を行ってください。
+Blenderのインストール手順を紹介します。以下に従い、**インストール**と**日本語化**を行ってください。
 
-::: danger ToDo
-Blenderのバージョン確認
-:::
+なお、本ページではバージョン **2.92.0** を利用して説明しています。現在リリースされている最新版は![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/blender/blender?color=%23e87d0d&label=%20)であり、以下の説明とは一部ファイル名等が異なりますが、大まかな流れは同じです。
 
-## Windowsでの手順
+[[TOC]]
 
-1. <https://www.blender.org/download/>にアクセスし、「Download Blender 2.92.0」のボタンをクリックして`blender-2.92.0-windows64.msi`(バージョンによってファイル名が多少変わります)を適当な場所にダウンロードしてください。ダウンロード場所はデスクトップなどどこでもOK。
+## インストール手順
+
+### Windowsでの手順
+
+1. <https://www.blender.org/download/>にアクセスし、「Download Blender 2.XX.X」のボタンをクリックして`blender-2.XX.0-windows64.msi`(バージョンによってファイル名が変わります)を適当な場所にダウンロードしてください。ダウンロード場所はデスクトップなどどこでもOK。
 
 ![installation_01.png](/modeling-trial/images/installation/installation_01.png)
 
-2. ダウンロードした`blender-2.92.0-windows64.msi`をダブルクリック又は 右クリック->インストール でインストールを開始します。以下のウィンドウが立ち上がるので"Next"をクリック。
+2. ダウンロードした`blender-2.XX.X-windows64.msi`をダブルクリックしてインストールを開始します。以下のウィンドウが立ち上がるので"Next"をクリック。
 
 ![installation_02.png](/modeling-trial/images/installation/installation_02.png)
 
@@ -20,7 +22,7 @@ Blenderのバージョン確認
 
 ![installation_03.png](/modeling-trial/images/installation/installation_03.png)
 
-4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウィンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは`C:\Program Files\Blender Foundation\Blender 2.92`にインストールされます。インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。
+4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウィンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは`C:\Program Files\Blender Foundation\Blender 2.XX`にインストールされます。インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。
 
 ![installation_04.png](/modeling-trial/images/installation/installation_04.png)
 
@@ -44,25 +46,25 @@ Blenderのバージョン確認
 
 ![installation_09.png](/modeling-trial/images/installation/installation_09.png)
 
-## Macでの手順
+### Macでの手順
 
 ::: danger ToDo
 追記する(Mac持ってる人に画像提供してもらう?)
 :::
 
-## 日本語化
+## 日本語化手順
 
-必須ではありませんが、インストールしたら日本語化しておいたほうが良いです。
+必須の操作ではありませんが、初心者の方は日本語化することをおすすめします。
 
-1. デフォルトではBlenderを起動すると以下のような画面になります。中央に出ているウインドウは**スプラッシュ画面**です。**スプラッシュ画面以外の領域をクリックしてスプラッシュ画面を消してください。**
+1. インストールしたBlenderを起動してください。デフォルトではBlenderを起動すると以下のような画面になります。中央に出ているウインドウは**スプラッシュ画面**です。**スプラッシュ画面の外側の領域をクリックしてスプラッシュ画面を消してください。**
 
-:::warning
-最初に起動した場合はスプラッシュ画面からも日本語化設定が可能ですが、誤クリック等で"Shortcuts"や"Select with"を変更してしまう可能性があるのでスプラッシュ画面は消してしまおう。"Shortcuts"や"Select with"を変更してしまうと、操作が大きく変わってしまいます。ネット上の記事や書籍ではデフォルトの操作設定で解説されることが多いため、初心者が気づかずにこれらを変更してしまうと混乱を招く可能性があるので触らないようにしましょう。
-:::
+  :::warning
+  最初に起動した場合はスプラッシュ画面からも日本語化設定が可能ですが、誤クリック等で"Shortcuts"や"Select with"を変更してしまう可能性があるのでスプラッシュ画面は消してしまいましょう。これらを変更してしまうと、**操作が大きく変わってしまいます**。ネット上の記事や書籍ではデフォルトの操作設定で解説されることが多いため、初心者が気づかずにこれらを変更してしまうと混乱を招く可能性があるので**触らないように**しましょう。
+  :::
 
-![installation_10.png](/modeling-trial/images/installation/installation_10.png)
-↓Quick Setupのデフォルト設定 どこも変更しないようにしましょう ↓
-![installation_10_1.png](/modeling-trial/images/installation/installation_10_1.png)
+  ![installation_10.png](/modeling-trial/images/installation/installation_10.png)
+  ↓Quick Setupのデフォルト設定 どこも変更しないようにしましょう↓
+  ![installation_10_1.png](/modeling-trial/images/installation/installation_10_1.png)
 
 2. 左上の"Edit"をクリックしてドロップダウンメニューを表示してください。最下部にある"Preferences..."をクリックすると設定ウィンドウを開くことができます。
 
@@ -79,12 +81,15 @@ Blenderのバージョン確認
 5. **重要** 日本語の選択後、すぐ下の"影響"欄の3つのチェックボックスを確認しましょう。
 
 - "ツールチップ"にチェックを入れると、各種UI要素上にマウスカーソルを重ねた時に表示される解説が翻訳される(**チェック推奨**)
-- "インターフェイス"にチェックを入れるとすべてのラベルが翻訳される(チェック推奨 英語の資料を見ながら制作するとき等はチェックを外すと良い)
+- "インターフェイス"にチェックを入れるとすべてのラベルが翻訳される(**チェック推奨**、英語の資料を見ながら制作するとき等はチェックを外すと良い)
 - **重要** "新規データ"にチェックを入れると新しく追加したデータブロックの名前が翻訳される。**チェックを付けないでください**
+
+以下の画像のようになっていれば大丈夫です。
+
+![installation_15.png](/modeling-trial/images/installation/installation_15.png)
 
 :::warning
 "新規データ"にチェックを付けてしまうと、新しく追加したオブジェクト、マテリアル、シェイプキー、UVマップ、頂点グループ等々がすべて日本語名で生成されてしまいます。日本語データ、つまり2バイト文字を含むデータはエラーやトラブルの原因になる可能性が非常に高いので絶対にチェックを付けないようにしましょう。オブジェクト名などは自分で変更することが可能ですが、その際にも日本語の入力はしないようにしましょう。
 :::
-![installation_15.png](/modeling-trial/images/installation/installation_15.png)
 
 これでBlenderの日本語化は完了です。設定ウィンドウは閉じてOKです。
