@@ -37,20 +37,12 @@ export default defineUserConfig<DefaultThemeOptions>({
         {
           text: '座学編',
           children: ['/lectures/README.md', '/lectures/what-can.md', '/lectures/how-to.md', '/lectures/what-used.md']
-        },
-        {
-          text: '発展座学編',
-          children: ['']
         }
       ],
       '/practical/': [
         {
           text: '実習編',
           children: ['/practical/README.md']
-        },
-        {
-          text: '発展実習編',
-          children: ['']
         }
       ],
     }
