@@ -46,5 +46,18 @@ export default defineUserConfig<DefaultThemeOptions>({
         }
       ],
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/container',
+      {
+        type: 'training',
+        locales: {
+          '/': {
+            defaultInfo: '実習'
+          }
+        }
+      }
+    ]
+  ]
 })

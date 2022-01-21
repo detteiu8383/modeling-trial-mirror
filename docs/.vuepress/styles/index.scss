@@ -41,6 +41,12 @@
   --c-danger-text-accent: var(--c-text);
   --c-details-bg: #eeeeee;
 
+  --c-training: #ea7600;
+  --c-training-bg: var(--c-bg-light);
+  --c-training-title: var(--c-text);
+  --c-training-text: var(--c-text);
+  --c-training-text-accent: var(--c-text-accent);
+
   // badge component colors
   --c-badge-tip: var(--c-tip);
   --c-badge-warning: var(--c-warning);
@@ -75,6 +81,17 @@ img {
   box-sizing: border-box;
   border: solid 4px var(--c-border);
   border-radius: 2px;
+}
+
+.custom-container.training {
+  padding: 0.1rem 1.5rem;
+  border-left-width: 0.5rem;
+  border-left-style: solid;
+  margin: 1rem 0;
+
+  border-color: var(--c-training);
+  background-color: var(--c-training-bg);
+  color: var(--c-training-text);
 }
 
 // plugin-back-to-top
