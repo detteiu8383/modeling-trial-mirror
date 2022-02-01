@@ -45,7 +45,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: ['/practical/README.md', '/practical/basic_operation.md', '/practical/model_creation.md', '/practical/rendering.md',]
         }
       ],
-    }
+    },
+    logo: '/images/logo/3dcg_logo.svg',
   },
   plugins: [
     [
