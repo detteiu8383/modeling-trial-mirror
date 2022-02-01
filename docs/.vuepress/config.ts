@@ -6,6 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'traP 3DCG体験会',
   description: '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
   base: '/modeling-trial/',
+  head: [['link', { rel: 'icon', href: '/modeling-trial/images/logo/3dcg_logo.ico' }]],
 
   extendsMarkdown: md => {
     md.use(require("markdown-it-footnote"));
