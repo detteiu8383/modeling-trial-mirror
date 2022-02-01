@@ -77,12 +77,6 @@
   --homepage-width: 960px;
 }
 
-img {
-  box-sizing: border-box;
-  border: solid 4px var(--c-border);
-  border-radius: 2px;
-}
-
 .custom-container.training {
   padding: 0.1rem 1.5rem;
   border-left-width: 0.5rem;
@@ -121,6 +115,12 @@ img {
 // plugin-medium-zoom
 .medium-zoom-overlay {
   --medium-zoom-bg-color: #0008;
+}
+
+.medium-zoom-image {
+  box-sizing: border-box;
+  border: solid 4px var(--c-border);
+  border-radius: 2px;
 }
 
 // plugin-nprogress
