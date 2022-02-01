@@ -70,5 +70,17 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       },
     ],
+    ['seo',
+      {
+        siteTitle: (_, $site) => $site.title,
+        title: $page => $page.title,
+        description: _ => '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
+        twitterCard: _ => 'summary_large_image',
+        image: _ => '/modeling-trial/images/logo/card.png',
+        url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+      }
+    ],
   ]
 })
