@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
@@ -60,6 +61,14 @@ export default defineUserConfig<DefaultThemeOptions>({
           }
         }
       }
-    ]
+    ],
+    [
+      '@vuepress/register-components',
+      {
+        components: {
+          tweet: path.resolve(__dirname, './components/tweet.vue'),
+        },
+      },
+    ],
   ]
 })
