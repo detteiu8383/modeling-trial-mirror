@@ -42,7 +42,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       '/practical/': [
         {
           text: '実習編',
-          children: ['/practical/README.md']
+          children: ['/practical/README.md', '/practical/basic_operation.md', '/practical/model_creation.md', '/practical/rendering.md',]
         }
       ],
     }
