@@ -72,14 +72,14 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     ['seo',
       {
-        siteTitle: (_, $site) => $site.title,
-        title: ($page, $site) => $page.title + " | " + $site.title,
-        description: _ => '東京工業大学デジタル創作同好会traP 新入生向け3DCG体験会',
-        twitterCard: _ => 'summary_large_image',
-        image: _ => 'https://d_etteiu8383.trap.show/modeling-trial/images/logo/card.png',
-        url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
-        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+        siteTitle: (_: any, $site: { title: string; }) => $site.title,
+        title: ($page: { title: string; }, $site: { title: string; }) => $page.title + " | " + $site.title,
+        description: (_: any) => '東京工業大学デジタル創作同好会traP 新入生向け3DCG体験会',
+        twitterCard: (_: any) => 'summary_large_image',
+        image: (_: any) => 'https://d_etteiu8383.trap.show/modeling-trial/images/logo/card.png',
+        url: ($page: { path: string; }) => 'https://d_etteiu8383.trap.show/modeling-trial' + $page.path,
+        publishedAt: ($page: { frontmatter: { date: string | number | Date; }; }) => $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: ($page: { lastUpdated: string | number | Date; }) => $page.lastUpdated && new Date($page.lastUpdated),
       }
     ],
   ]
