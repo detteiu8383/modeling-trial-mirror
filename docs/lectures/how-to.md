@@ -38,11 +38,11 @@
 - **面**(Face)
   - 3つ以上の辺で囲まれた多角形
 
-![頂点・辺・面の例](/modeling-trial/images/how-to/polygonmesh_compornents.png)
+![頂点・辺・面の例](./imgs/polygonmesh_compornents.png)
 
 下図の黒い点が**頂点**、黒い線が**辺**、白い部分は**面**。
 
-![実際の3Dモデルにおける頂点・辺・面の例](/modeling-trial/images/how-to/polygonmesh_sample.png)
+![実際の3Dモデルにおける頂点・辺・面の例](./imgs/polygonmesh_sample.png)
 
 このように頂点や面を追加したり、
 位置を調整してポリゴンメッシュを作るのが
@@ -77,7 +77,7 @@
 
 下図はそれぞれ異なる設定を与えたマテリアルを、同じ球体の3Dモデルに適用した例。設定した値によって見た目が変化しているのがわかる。
 
-![異なるマテリアルを適用した球の画像](/modeling-trial/images/how-to/material_sample.png)
+![異なるマテリアルを適用した球の画像](./imgs/material_sample.png)
 
 :::tip まとめ
 3DCGで描画する"立体物"を**3Dモデル**と呼び、これを作成する作業を**3Dモデリング**と呼ぶ。
@@ -92,11 +92,11 @@
 
 ここでは下図の様な、ボールを下方に移動させるアニメーションを作る場合を考える。
 
-![ボールが移動するアニメーション](/modeling-trial/images/how-to/animation.gif)
+![ボールが移動するアニメーション](./imgs/animation.gif)
 
 このようなアニメーションを作成する場合、ボールの位置を**少しずつずらした**複数の画像を用意し、これらを**素早く切り替えて表示する**ことで動いているように見せる。パラパラ漫画と同じ原理。
 
-![ボールが移動するアニメーションの各フレーム](/modeling-trial/images/how-to/animation_frames.png)
+![ボールが移動するアニメーションの各フレーム](./imgs/animation_frames.png)
 
 この1枚1枚の画像を**フレーム**と呼ぶ。
 
@@ -110,7 +110,7 @@
 
 **キーフレームアニメーション**は、**重要なフレームだけで**モノの動作を指定するアニメーション作成方法。
 
-![キーフレームアニメーションの概要](/modeling-trial/images/how-to/animation_keyframe.png)
+![キーフレームアニメーションの概要](./imgs/animation_keyframe.png)
 
 "1フレーム目ではボールをこっちに置く"、"10フレーム目ではボールをあっちに置く"
 のように、2つの**重要なフレームだけで**モノの動作を指定する。
@@ -125,8 +125,8 @@
 
 | 滑らかな入り抜き | 直線的な移動 | ばねみたいな移動 |
 | :-: | :-: | :-: |
-| ![滑らかな入り抜きのグラフ](/modeling-trial/images/how-to/animation_easeinout_graph.png) | ![直線的な移動のグラフ](/modeling-trial/images/how-to/animation_liner_graph.png) | ![ばねみたいな移動のグラフ](/modeling-trial/images/how-to/animation_spring_graph.png) |
-| ![滑らかな入り抜きのアニメーション](/modeling-trial/images/how-to/animation_easeinout.gif) | ![直線的な移動のアニメーション](/modeling-trial/images/how-to/animation_liner.gif) | ![ばねみたいなアニメーションのアニメーション](/modeling-trial/images/how-to/animation_spring.gif) |
+| ![滑らかな入り抜きのグラフ](/modeling-trial/images/how-to/animation_easeinout_graph.png) | ![直線的な移動のグラフ](/modeling-trial/images/how-to/animation_liner_graph.png) | ![ばねみたいな移動のグラフ](./imgs/animation_spring_graph.png) |
+| ![滑らかな入り抜きのアニメーション](/modeling-trial/images/how-to/animation_easeinout.gif) | ![直線的な移動のアニメーション](/modeling-trial/images/how-to/animation_liner.gif) | ![ばねみたいなアニメーションのアニメーション](./imgs/animation_spring.gif) |
 :::
 
 ### スケルタルアニメーション
@@ -139,20 +139,20 @@
 
 **スケルトン**(skeleton)を用いると、人間や動物、ロボットアーム等、**関節**を持ったポリゴンメッシュを楽に、イイ感じに変形することができる。
 
-![スケルタルアニメーションの概要](/modeling-trial/images/how-to/animation_skelton.png)
+![スケルタルアニメーションの概要](./imgs/animation_skelton.png)
 
-![スケルトンの例](/modeling-trial/images/how-to/animation_skelton_example.png)
+![スケルトンの例](./imgs/animation_skelton_example.png)
 
 スケルトンは**ボーン**と**ジョイント**で構成された**骨格**のこと。このスケルトンとポリゴンメッシュを**連動させる**(**スキニング**する)ことで、ポリゴンメッシュを変形させることができる。
 
 これと先ほどのキーフレームアニメーションを用いて、"1フレーム目では腕のボーンをこの角度に、10フレーム目では..."などと指定するとポリゴンメッシュの変形をアニメーションできる。
 
-![スケルタルアニメーションの例](/modeling-trial/images/how-to/animation_skeltal_animation_optimize.gif)
+![スケルタルアニメーションの例](./imgs/animation_skeltal_animation_optimize.gif)
 
 :::details スキニング時の調整
 **スキンウェイト**は"どの頂点が","どのボーンに","どれぐらいの割合で"追従するかを決める**重み**のこと。実際にスキニングを行う際は各頂点のスキンウェイトを調整することで、変形の仕方を調整する。
 
-![スキンウェイトの違いによるモデルの変形の違い](/modeling-trial/images/how-to/animation_skinweight.png)
+![スキンウェイトの違いによるモデルの変形の違い](./imgs/animation_skinweight.png)
 
 スキンウェイトを変更すると、ボーンの変形が同じでもモデルの変形の仕方が変化することがわかる。
 :::
@@ -203,7 +203,7 @@ CGを**事前に**レンダリングすることを**プリレンダリング**(
 例：ゲーム(PCやスマホがレンダリングを行う)、Vtuberの配信(配信者のPCがレンダリングを行う)
 
 :::tip ゲームにおける具体例
-![デレステのゲーム画面](/modeling-trial/images/how-to/rendering_real_time_rendering.png)
+![デレステのゲーム画面](./imgs/rendering_real_time_rendering.png)
 
 190人ものアイドルが登場・各キャラクターが数種類の衣装を所持・最大15人のアイドルでライブを行うゲーム「アイドルマスター シンデレラガールズ スターライトステージ」。事前に全組み合わせの映像を用意して配信するのは無理なので、ユーザーのスマートフォン/PCによってリアルタイムレンダリングが行われている。
 :::
