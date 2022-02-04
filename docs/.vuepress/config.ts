@@ -82,5 +82,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         modifiedAt: ($page: { lastUpdated: string | number | Date; }) => $page.lastUpdated && new Date($page.lastUpdated),
       }
     ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-XLCK2L39NG',
+      },
+    ],
   ]
 })
