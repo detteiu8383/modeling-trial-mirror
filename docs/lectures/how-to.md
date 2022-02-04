@@ -125,8 +125,8 @@
 
 | 滑らかな入り抜き | 直線的な移動 | ばねみたいな移動 |
 | :-: | :-: | :-: |
-| ![滑らかな入り抜きのグラフ](/modeling-trial/images/how-to/animation_easeinout_graph.png) | ![直線的な移動のグラフ](/modeling-trial/images/how-to/animation_liner_graph.png) | ![ばねみたいな移動のグラフ](./imgs/animation_spring_graph.png) |
-| ![滑らかな入り抜きのアニメーション](/modeling-trial/images/how-to/animation_easeinout.gif) | ![直線的な移動のアニメーション](/modeling-trial/images/how-to/animation_liner.gif) | ![ばねみたいなアニメーションのアニメーション](./imgs/animation_spring.gif) |
+| ![滑らかな入り抜きのグラフ](./imgs/animation_easeinout_graph.png) | ![直線的な移動のグラフ](./imgs/animation_liner_graph.png) | ![ばねみたいな移動のグラフ](./imgs/animation_spring_graph.png) |
+| ![滑らかな入り抜きのアニメーション](./imgs/animation_easeinout.gif) | ![直線的な移動のアニメーション](./imgs/animation_liner.gif) | ![ばねみたいなアニメーションのアニメーション](./imgs/animation_spring.gif) |
 :::
 
 ### スケルタルアニメーション
