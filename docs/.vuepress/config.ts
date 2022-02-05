@@ -67,6 +67,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         components: {
           tweet: path.resolve(__dirname, './components/tweet.vue'),
+          blenderVersion: path.resolve(__dirname, './components/blenderVersion.vue'),
         },
       },
     ],
