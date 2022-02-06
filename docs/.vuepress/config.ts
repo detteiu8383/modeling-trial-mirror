@@ -77,7 +77,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         title: ($page: { title: string; }, $site: { title: string; }) => $page.title + " | " + $site.title,
         description: ($page: { excerpt: string; }) => $page.excerpt ? $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').replace(/\n/g, ' ') : '東京工業大学デジタル創作同好会traP 新入生向け3DCG体験会',
         url: ($page: { path: string; }) => 'https://d_etteiu8383.trap.show/modeling-trial' + $page.path,
-        image: (_: any) => 'https://d_etteiu8383.trap.show/modeling-trial/images/logo/card.png'
+        image: (_: any) => 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png'
       }
     ],
     [
