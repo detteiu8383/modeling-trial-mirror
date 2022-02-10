@@ -16,8 +16,11 @@ Blenderのインストール手順を紹介します。以下に従い、**イ�
   ![installation_02.png](./imgs/installation_02.png)
 3. 使用許諾契約が表示されます。同意しないとBlenderが使えないのでチェックボックスにチェックを入れて"Next"をクリック。  
   ![installation_03.png](./imgs/installation_03.png)
-4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは<code>C:\Program Files\Blender Foundation\Blender\\<blenderVersion is-short="true"/></code>にインストールされます。インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。  
-  ![installation_04.png](./imgs/installation_04.png)
+4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは<code>C:\Program Files\Blender Foundation\Blender\\<blenderVersion is-short="true"/></code>にインストールされます。  
+    ![installation_04.png](./imgs/installation_04.png)
+    :::tip
+    インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。
+    :::
 5. 以下の画像が表示されたらインストール準備は完了。"Install"をクリックするとインストールが開始されます。  
   ![installation_05.png](./imgs/installation_05.png)
 6. ユーザーアカウント制御が表示されるので"はい"をクリック。  
@@ -31,9 +34,12 @@ Blenderのインストール手順を紹介します。以下に従い、**イ�
 
 ### Macでの手順
 
-::: danger ToDo
-追記する(Mac持ってる人に画像提供してもらう?)
-:::
+1. <https://www.blender.org/download/>にアクセスし、「Download Blender <blenderVersion />」のボタンをクリックして<code>blender-<blenderVersion />-macos-x64.dmg</code>(バージョンによってファイル名が変わります)を適当な場所にダウンロードしてください。ダウンロード場所はデスクトップなどどこでもOK。  
+  ![installation_01.png](./imgs/installation_mac_01.png)
+2. ダウンロードした<code>blender-<blenderVersion />-macos-x64.dmg</code>をダブルクリックしてインストールを開始します。以下のウィンドウが立ち上がるので"Blender"を"アプリケーション"フォルダにドラッグアンドドロップ。  
+  ![installation_02.png](./imgs/installation_mac_02.png)
+3. "アプリケーション"内の"Blender"をダブルクリックしてBlenderを起動できます。初回起動時は以下のウィンドウが表示されますが、"開く"を押しましょう。  
+  ![installation_03.png](./imgs/installation_mac_03.png)
 
 ## 日本語化手順
 
@@ -53,9 +59,9 @@ Blenderのインストール手順を紹介します。以下に従い、**イ�
 4. "Translation"内の"Language"の右にあるメニューをクリックして言語一覧から"Japanese(日本語)"を選択してください。  
   ![installation_14.png](./imgs/installation_14.png)
 5. **重要** 日本語の選択後、すぐ下の"影響"欄の3つのチェックボックスを確認しましょう。  
-   - "ツールチップ"にチェックを入れると、各種UI要素上にマウスカーソルを重ねた時に表示される解説が翻訳される(**チェック推奨**)
-   - "インターフェイス"にチェックを入れるとすべてのラベルが翻訳される(**チェック推奨**、英語の資料を見ながら制作するとき等はチェックを外すと良い)
-   - **重要** "新規データ"にチェックを入れると新しく追加したデータブロックの名前が翻訳される。**チェックを付けないでください**  
+   - "ツールチップ"にチェックを入れると、各種UI要素上にマウスカーソルを重ねた時に表示される解説が翻訳されます(**チェック推奨**)
+   - "インターフェイス"にチェックを入れるとすべてのラベルが翻訳されます(**チェック推奨**、英語の資料を見ながら制作するとき等はチェックを外すと良い)
+   - **重要** "新規データ"にチェックを入れると新しく追加したデータブロックの名前が翻訳されます。**チェックを付けないでください**。(Quick Setupから言語を変更すると新規データに勝手にチェックが入ってしまいます)
 
     以下の画像のようになっていれば大丈夫です。  
     ![installation_15.png](./imgs/installation_15.png)
