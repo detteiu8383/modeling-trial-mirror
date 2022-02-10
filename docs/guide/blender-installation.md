@@ -2,7 +2,7 @@
 
 Blenderのインストール手順を紹介します。以下に従い、**インストール**と**日本語化**を行ってください。
 
-なお、本ページではバージョン**2.92.0**を利用して説明しています。現在リリースされている最新版は<blenderVersion />であり、以下の説明とは一部ファイル名等が異なりますが、大まかな流れは同じです。
+なお、本ページの画像ではバージョン3.0.1を利用して説明しています。現在リリースされている最新版は<blenderVersion />であり、以下の説明とは一部ファイル名等が異なりますが、大まかな流れは同じです。
 
 [[TOC]]
 
@@ -10,13 +10,13 @@ Blenderのインストール手順を紹介します。以下に従い、**イ�
 
 ### Windowsでの手順
 
-1. <https://www.blender.org/download/>にアクセスし、「Download Blender X.Y.Z」のボタンをクリックして`blender-X.Y.Z-windows64.msi`(バージョンによってファイル名が変わります)を適当な場所にダウンロードしてください。ダウンロード場所はデスクトップなどどこでもOK。  
+1. <https://www.blender.org/download/>にアクセスし、「Download Blender <blenderVersion />」のボタンをクリックして<code>blender-<blenderVersion />-windows64.msi</code>(バージョンによってファイル名が変わります)を適当な場所にダウンロードしてください。ダウンロード場所はデスクトップなどどこでもOK。  
   ![installation_01.png](./imgs/installation_01.png)
-2. ダウンロードした`blender-X.Y.Z-windows64.msi`をダブルクリックしてインストールを開始します。以下のウィンドウが立ち上がるので"Next"をクリック。  
+2. ダウンロードした<code>blender-<blenderVersion />-windows64.msi</code>をダブルクリックしてインストールを開始します。以下のウィンドウが立ち上がるので"Next"をクリック。  
   ![installation_02.png](./imgs/installation_02.png)
 3. 使用許諾契約が表示されます。同意しないとBlenderが使えないのでチェックボックスにチェックを入れて"Next"をクリック。  
   ![installation_03.png](./imgs/installation_03.png)
-4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは`C:\Program Files\Blender Foundation\Blender X.Y`にインストールされます。インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。  
+4. Custom Setupが表示されます。インストール内容のカスタムは不要なのでウンドウ中央に表示されるツリー部分は触らないでください。誤クリック等で設定が変わってしまったら下の"Reset"をクリック。デフォルトでは<code>C:\Program Files\Blender Foundation\Blender\\<blenderVersion is-short="true"/></code>にインストールされます。インストール場所を変えたい場合は画像内点線で囲った"Browse..."をクリックしてインストールしたいフォルダを選択してください。インストールには約550MBの空き容量が必要です。インストール場所の設定をしたら"Next"をクリック。  
   ![installation_04.png](./imgs/installation_04.png)
 5. 以下の画像が表示されたらインストール準備は完了。"Install"をクリックするとインストールが開始されます。  
   ![installation_05.png](./imgs/installation_05.png)
