@@ -28,3 +28,7 @@ traPと書いてトラップと読みます(/trǽp/)。正式に表記する�
 :::danger ToDo
 ここに作成する動画を挿入する
 :::
+
+## フィードバック
+
+本資料ページに関するフィードバックはいつでも歓迎しています。何か連絡等ございましたら筆者のTwitterアカウント([@d_etteiu8383](https://twitter.com/d_etteiu8383))のDMか、traP公式Twitterアカウント([@traPtitech](https://twitter.com/traPtitech))のDMにお願いします。
