@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-plugin-seo-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
