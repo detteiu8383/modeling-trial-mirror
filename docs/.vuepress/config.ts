@@ -9,6 +9,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   base: '/modeling-trial/',
   head: [['link', { rel: 'icon', href: '/modeling-trial/images/logo/3dcg_logo.ico' }]],
 
+  clientAppEnhanceFiles: path.resolve(__dirname, './clientAppEnhance.ts'),
+
   themeConfig: {
     navbar: [
       {
@@ -62,18 +64,16 @@ export default defineUserConfig<DefaultThemeOptions>({
       '@vuepress/register-components',
       {
         components: {
-          tweet: path.resolve(__dirname, './components/tweet.vue'),
           blenderVersion: path.resolve(__dirname, './components/blenderVersion.vue'),
         },
       },
     ],
     [
-      path.resolve(__dirname, './local-plugins/vuepress-plugin-seo-v2/index.js'),
+      path.resolve(__dirname, './local-plugins/vuepress-plugin-seo-v2/lib/index.ts'),
       {
-        title: ($page: { title: string; }, $site: { title: string; }) => $page.title + " | " + $site.title,
-        description: ($page: { excerpt: string; }) => $page.excerpt ? $page.excerpt.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g, '').replace(/\n/g, ' ') : '東京工業大学デジタル創作同好会traP 新入生向け3DCG体験会',
-        url: ($page: { path: string; }) => 'https://d_etteiu8383.trap.show/modeling-trial' + $page.path,
-        image: (_: any) => 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png'
+        title: (page, site) => page.frontmatter.title && site.title ? page.frontmatter.title + " | " + site.title : site.title || '',
+        url: (page, site) => 'https://d_etteiu8383.trap.show/modeling-trial' + page.path,
+        image: () => 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png'
       }
     ],
     [
