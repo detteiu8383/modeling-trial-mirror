@@ -9,6 +9,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   base: '/modeling-trial/',
   head: [['link', { rel: 'icon', href: '/modeling-trial/images/logo/3dcg_logo.ico' }]],
 
+  clientAppEnhanceFiles: path.resolve(__dirname, './clientAppEnhance.ts'),
+
   themeConfig: {
     navbar: [
       {
