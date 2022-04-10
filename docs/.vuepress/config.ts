@@ -64,7 +64,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       '@vuepress/register-components',
       {
         components: {
-          tweet: path.resolve(__dirname, './components/tweet.vue'),
           blenderVersion: path.resolve(__dirname, './components/blenderVersion.vue'),
         },
       },
