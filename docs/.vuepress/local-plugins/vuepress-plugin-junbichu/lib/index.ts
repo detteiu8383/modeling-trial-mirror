@@ -1,4 +1,4 @@
-import type { Plugin, PluginObject, Page, App } from '@vuepress/core'
+import type { Plugin, PluginObject, Page } from '@vuepress/core'
 
 const seoPlugin: Plugin = (options, app): PluginObject => {
     const pluginObj: PluginObject = {
