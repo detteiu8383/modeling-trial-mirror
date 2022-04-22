@@ -7,7 +7,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
   title: 'traP 3DCG体験会',
   description: '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
-  base: '/modeling-trial/',
+  // base: '/modeling-trial/',
   head: [['link', { rel: 'icon', href: '/modeling-trial/images/logo/3dcg_logo.ico' }]],
 
   clientAppEnhanceFiles: path.resolve(__dirname, './clientAppEnhance.ts'),
