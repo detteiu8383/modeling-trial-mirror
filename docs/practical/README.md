@@ -1,3 +1,7 @@
+---
+junbichu: true
+---
+
 # 実習編 Introduction
 
 Blenderを利用した簡単な3DCGの作成手順を学びましょう。

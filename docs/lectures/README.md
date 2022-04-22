@@ -1,3 +1,7 @@
+---
+junbichu: true
+---
+
 # 座学編 Introduction
 
 座学編では3DCGの基本を学んでいきます。

@@ -61,6 +61,10 @@ export default defineUserConfig<DefaultThemeOptions>({
       }
     ],
     [
+      path.resolve(__dirname, './local-plugins/vuepress-plugin-junbichu/lib/index.ts'),
+      {}
+    ],
+    [
       '@vuepress/register-components',
       {
         components: {
