@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-plugin-junbichu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}

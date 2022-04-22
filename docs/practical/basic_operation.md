@@ -1,3 +1,7 @@
+---
+junbichu: true
+---
+
 # Blenderの基本設定・基本操作
 
 まずはBlenderの基本設定・基本操作を説明します。

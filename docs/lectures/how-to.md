@@ -1,3 +1,7 @@
+---
+junbichu: true
+---
+
 # 3DCGはどう作るの？
 
 :::tip 目標
