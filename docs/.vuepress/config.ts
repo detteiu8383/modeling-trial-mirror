@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import { path } from '@vuepress/utils'
+import { seo } from "vuepress-plugin-seo2";
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
@@ -72,10 +73,19 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       },
     ],
+    // seo({
+    //   hostname: 'https://d_etteiu8383.trap.show/modeling-trial/',
+    //   ogp: (ogp, page, app) => ({
+    //     ...ogp,
+    //     "og:title": page.frontmatter.title && app.siteData.title ? page.frontmatter.title + " | " + app.siteData.title : app.siteData.title || '',
+    //     "og:image": 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png',
+    //     "og:url": 'https://d_etteiu8383.trap.show/modeling-trial' + page.path,
+    //   }),
+    // }),
     [
       path.resolve(__dirname, './local-plugins/vuepress-plugin-seo-v2/lib/index.ts'),
       {
-        title: (page, site) => page.frontmatter.title && site.title ? page.frontmatter.title + " | " + site.title : site.title || '',
+        title: (page, site) => page.data.title && site.title ? page.data.title + " | " + site.title : site.title || '',
         url: (page, site) => 'https://d_etteiu8383.trap.show/modeling-trial' + page.path,
         image: () => 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png'
       }
