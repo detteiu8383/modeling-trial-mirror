@@ -4,3 +4,4 @@ work_dir: docs/.vuepress/dist
 startup: |
   npm install
   npm run build
+cname: "3d-trial.trap.games"
