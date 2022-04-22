@@ -6,7 +6,7 @@
 
 ## 資料
 
-本体験会では資料として今ご覧いただいているページ(<https://d_etteiu8383.trap.show/modeling-trial/>)を使います。
+本体験会では資料として今ご覧いただいているページ(<https://3d-trial-2022.trap.games/>)を使います。
 
 ## デバイス
 
@@ -32,7 +32,7 @@
 
 本体験会の実習では、**Blender**(ブレンダー)という**無料**の3DCG制作ソフトを用います。当日体験会中にもインストール手順を説明しますが、**事前にインストールを済ませておくとスムーズに参加できます**。時間に余裕がある方は、体験会前にインストールを済ませてください:pray:
 
-具体的なインストール手順は[Blenderのインストール手順](blender-installation.md)(<https://d_etteiu8383.trap.show/modeling-trial/guide/blender-installation.html>)を確認してください。
+具体的なインストール手順は[Blenderのインストール手順](blender-installation.md)(<https://3d-trial-2022.trap.games/guide/blender-installation.html>)を確認してください。
 
 なお、他の3Dモデリングソフトウェアを所有していて、そちらを使って作業したい人はインストールしなくても構いませんが、演習ではBlenderに準拠した説明を行うので、扱いに自身が無い人はBlenderのインストールを強く推奨します。
 

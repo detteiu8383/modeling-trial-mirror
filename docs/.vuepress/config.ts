@@ -8,7 +8,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'traP 3DCG体験会',
   description: '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
   // base: '/modeling-trial/',
-  head: [['link', { rel: 'icon', href: '/modeling-trial/images/logo/3dcg_logo.ico' }]],
+  head: [['link', { rel: 'icon', href: '/images/logo/3dcg_logo.ico' }]],
 
   clientAppEnhanceFiles: path.resolve(__dirname, './clientAppEnhance.ts'),
 
@@ -74,20 +74,20 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     ],
     // seo({
-    //   hostname: 'https://d_etteiu8383.trap.show/modeling-trial/',
+    //   hostname: 'https://3d-trial-2022.trap.games/',
     //   ogp: (ogp, page, app) => ({
     //     ...ogp,
     //     "og:title": page.frontmatter.title && app.siteData.title ? page.frontmatter.title + " | " + app.siteData.title : app.siteData.title || '',
-    //     "og:image": 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png',
-    //     "og:url": 'https://d_etteiu8383.trap.show/modeling-trial' + page.path,
+    //     "og:image": 'https://3d-trial-2022.trap.games/images/card.png',
+    //     "og:url": 'https://3d-trial-2022.trap.games' + page.path,
     //   }),
     // }),
     [
       path.resolve(__dirname, './local-plugins/vuepress-plugin-seo-v2/lib/index.ts'),
       {
         title: (page, site) => page.data.title && site.title ? page.data.title + " | " + site.title : site.title || '',
-        url: (page, site) => 'https://d_etteiu8383.trap.show/modeling-trial' + page.path,
-        image: () => 'https://d_etteiu8383.trap.show/modeling-trial/images/card.png'
+        url: (page, site) => 'https://3d-trial-2022.trap.games' + page.path,
+        image: () => 'https://3d-trial-2022.trap.games/images/card.png'
       }
     ],
     [

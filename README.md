@@ -1,7 +1,7 @@
 # 新歓モデリング体験会資料
 
 新刊モデリング体験会資料のリポジトリ  。
-体験会資料URL:<https://d_etteiu8383.trap.show/modeling-trial/>
+体験会資料URL:<https://3d-trial-2022.trap.games/>
 
 powered by [vuepress-next](https://github.com/vuepress/vuepress-next)
 
