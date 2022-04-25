@@ -23,11 +23,11 @@ traPと書いてトラップと読みます(/trǽp/)。正式に表記する�
 
 後半の[実習編](../practical/README.md)では**Blender**という3DCG制作ソフトを用い、キャラクターのモデリングからアニメーションの作成までを実際に体験してもらいます。最終的には以下のようなアニメーションを作成します！
 
-<!-- <video controls>
-    <source src="/guide/imgs/goal.mp4"
+<video controls loop>
+    <source src="/videos/goal.mp4"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
-</video> -->
+</video>
 
 ## フィードバック
 
