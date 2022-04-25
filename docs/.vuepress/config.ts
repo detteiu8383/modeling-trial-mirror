@@ -1,7 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import { path } from '@vuepress/utils'
-import { seo } from "vuepress-plugin-seo2";
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
