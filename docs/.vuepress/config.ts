@@ -73,15 +73,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         },
       },
     ],
-    // seo({
-    //   hostname: 'https://3d-trial-2022.trap.games/',
-    //   ogp: (ogp, page, app) => ({
-    //     ...ogp,
-    //     "og:title": page.frontmatter.title && app.siteData.title ? page.frontmatter.title + " | " + app.siteData.title : app.siteData.title || '',
-    //     "og:image": 'https://3d-trial-2022.trap.games/images/card.png',
-    //     "og:url": 'https://3d-trial-2022.trap.games' + page.path,
-    //   }),
-    // }),
     [
       path.resolve(__dirname, './local-plugins/vuepress-plugin-seo-v2/lib/index.ts'),
       {
