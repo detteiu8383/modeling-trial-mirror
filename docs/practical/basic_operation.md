@@ -8,12 +8,17 @@ junbichu: true
 
 ## Blenderとは
 
+公式サイト：<https://www.blender.org/>  
+公式紹介：<https://www.blender.org/about/>
+
+> Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+> 引用：<https://www.blender.org/about/>
+
 ## Blenderのインストール
 
 [Blenderのインストール・日本語化](../guide/blender-installation.html)を参考に、**インストール**と**日本語化**を済ませてください。
 
-インストール出来たらBlenderを起動します。
-
+インストール出来たらBlenderを起動します。  
 起動したら次のような画面になります。↓
 
 ![起動直後のBlenderの画面](./imgs/after_startup.png)
@@ -22,7 +27,9 @@ junbichu: true
 
 ![Blenderのスプラッシュスクリーン](./imgs/splash_screen.png)
 
-Blenderからの「こんにちは」です。この画面の右上に表示されている数字が、今利用しているBlenderのバージョン情報です。この実習では**2.8以上**(2.9や、3.0.1など)になっていれば大丈夫。なお、現在の最新版は<blenderVersion />です。
+Blenderからの「こんにちは」です。(参考：[Splash Screen(スプラッシュ画面) — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/splash.html))
+
+この画面の右上に表示されている数字が、今利用しているBlenderのバージョン情報です。この実習では**2.8以上**(2.9や、3.0.1など)になっていれば大丈夫。なお、現在の最新版は<blenderVersion />です。
 
 また、バージョン番号は画面右下のステータスバーにも表示されています。
 
@@ -49,12 +56,16 @@ Blenderからの「こんにちは」です。この画面の右上に表示さ�
 
 といった感じです。
 
+参考：[デフォルトのワークスペース — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/workspaces.html#default-workspaces)
+
 ## ファイルの保存
 
 最初に今回の作業データの保存場所の設定を行いましょう。
 Blenderは作業途中のデータをまるまる`.blend`の形式で保存します。
 
 `.blend`の保存は、特定の3Dモデルやアニメーションを保存するのではなく、**作業途中のデータを作業机ごと保存しておくイメージ**です。
+
+参考：[Assets, Files, & Data System » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/introduction.html), [Opening & Saving — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/blend/open_save.html#saving-files)
 
 :::tip
 3Dモデルやアニメーションのデータを、**ゲーム制作等で使用するために保存する場合**は別の操作が必要になります。
@@ -71,6 +82,11 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
 するとファイル保存用のウィンドウが開くので、下の画像に従って`.blend`ファイルを保存してください。
 
 ![ファイルの保存方法2](./imgs/how_to_save_2.png)
+
+1. 左の欄から好きなフォルダを選ぶ。この例ではデスクトップの`taikenkai`フォルダを選択
+2. ファイル名を画面下部の入力欄に入力する
+3. 画面下部の"名前つけて"保存を押して保存する
+
 :::
 
 以降、**適宜作業がひと段落つくたびにファイルの保存をするようにしましょう**。画面左上の"ファイル"→"保存"でも保存できますし、Windowsなら<kbd>Ctrl</kbd> + <kbd>S</kbd>、Macなら<kbd>⌘command</kbd> + <kbd>S</kbd>でも保存できます
@@ -87,11 +103,14 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
   ![視点の回転操作](./imgs/view_operation_zoom_optimize.gif)
 - <kbd>Alt</kbd>を押しながら中ボタンドラッグをすると、真正面、真横、真上等からの視点になります。
 
+参考：[Navigation(視点の操作) — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/navigate/navigation.html)
+
 :::training
 
 ### Blenderの視点操作に慣れよう
 
-上に挙げた四つの視点操作を全て試してみてください。
+上に挙げた四つの視点操作を全て試してみてください。慣れるまでぐりぐり動かしてみましょう。
+
 :::
 
 ## オブジェクトモードと編集モード
@@ -101,7 +120,9 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
 1. 3Dビューポートにモノ(**オブジェクト**と呼ぶ)を設置
 2. オブジェクトを編集
 
-の手順を繰り返して制作を行うため、以下の2つのモードが存在します。
+の手順を繰り返して制作を行っていきます。(参考：[シーン & オブジェクト » Objects(オブジェクト) » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/introduction.html))
+
+以下の2つのモードが存在します。
 
 - **オブジェクトモード**
   - オブジェクト自体の配置や移動を行うモードです。
@@ -110,41 +131,91 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
 
 これら2つのモードは画面左上から切り替えることができます。<kbd>Tab</kbd>を押すことでも切り替えることができます。
 
-![](https://md.trap.jp/uploads/upload_15c44f9b820cd3f2faa263cd7a84cd57.png)
-
-![](https://md.trap.jp/uploads/upload_82ea1a316c9e1c006a7a528b249e7c50.png)
+![モードの切り替え方法](./imgs/mode_change.png)
 
 これら2つ以外にもモードは存在しますが、今回は扱いません。
 
-## オブジェクトモードでのオブジェクト選択と追加/削除
+参考：[オブジェクトのモード — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/modes.html)
 
-オブジェクトモードで単純な図形を設置し、編集モードで複雑な形に変形させることでモデリングを行っていきます。
+Blenderでは、以下の操作を繰り返してモデリングを行います。
+
+1. オブジェクトモードで単純な**図形を設置**する
+2. 編集モードで**複雑な形に変形**させる
+
+## オブジェクトモードでの基本操作
+
+> Blenderでは、以下の操作を繰り返してモデリングを行います。
+>
+> 1. オブジェクトモードで単純な図形を設置する
+> 2. 編集モードで複雑な形に変形させる
+
+まずは1.の"オブジェクトモードで単純な図形を設置する"の方法を確認しましょう。
+
+### オブジェクトモードでのオブジェクト選択
+
+オブジェクトモードでは、**左クリック**でオブジェクトの**選択**ができます。選択できると、オブジェクトの周りがオレンジの線で縁取られます。
+
+![選択したオブジェクトが縁取りされる様子](./imgs/select_object.png)
+
+参考：[選択 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/selecting.html)
+
+### オブジェクトモードでのオブジェクト削除
+
+オブジェクトを選択した状態で<kbd>X</kbd>を押すと、**オブジェクトの削除**を行うことができます。確認ダイアログが出るので、OKを押すことで削除できます。<kbd>Delete</kbd>でも削除することができます。
+
+![選択したオブジェクトの削除方法](./imgs/delete_object.png)
+
+参考：[Delete(削除) — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/editing/delete.html)
 
 :::training
 
-### 立方体の削除/追加とモードの切り替えをしよう
+#### オブジェクトを削除しよう
 
-オブジェクトモードでは、左クリックでオブジェクトの選択ができます。選択できると、オブジェクトの周りがオレンジの線で縁取られます。
+**最初から表示されている立方体**を削除してみましょう。
 
-![](https://md.trap.jp/uploads/upload_74f20d17534e780a22fdd0a0426e1ae2.png)
+1. **オブジェクトモード**になっていることを確認し、
+2. 立方体にカーソルを合わせて、
+3. **右クリック**して選択し、
+4. <kbd>X</kbd>または<kbd>Delete</kbd>で削除
 
-この状態で<kbd>X</kbd>を押すと、**オブジェクトの削除**を行うことができます。確認ダイアログが出るので、OKを押して削除してください。
+:::
 
-![](https://md.trap.jp/uploads/upload_a5a37a137b21bc281c4cc4b6910fea04.png)
+### オブジェクトモードでのオブジェクト追加
 
-<kbd>X</kbd>による削除は**編集モードでも使える**ので覚えておいてください。
+オブジェクトモードでは左上の"**追加**"を選択することで、オブジェクトの追加ができます。
 
-また、オブジェクトモードでは左上の"**追加**"を選択することで、オブジェクトの追加ができます。
+"メッシュ"、"カーブ"、"サーフェス"...等さまざまなオブジェクトを追加できます。
 
-立方体を追加したいので、"追加"→"メッシュ"→"立方体"を選択してください。
+参考：[オブジェクトの種類 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/types.html)
 
-![](https://md.trap.jp/uploads/upload_25fc8e6b550943bbbc7b1f38c16e7a47.png)
+:::training
 
-これで新しい立方体の追加ができました。この立方体を再度選択してください。オレンジで縁取られていれば選択できています。この状態で、編集モードに切り替えてください。すると下のような画面になるはずです。
+#### 立方体を追加しよう
+
+一度削除しましたが、再度立方体を追加しましょう。
+立方体は"追加"→"メッシュ"→"立方体"から選択することができます。
+
+![オブジェクトの追加](./imgs/add_object.png)
+
+:::
+
+## 編集モードでの基本操作
+
+> Blenderでは、以下の操作を繰り返してモデリングを行います。
+>
+> 1. オブジェクトモードで単純な図形を設置する
+> 2. 編集モードで複雑な形に変形させる
+
+ここからは2.の"編集モードで複雑な形に変形させる"方法を確認しましょう。
+
+:::training
+
+立方体を再度選択してください。オレンジで縁取られていれば選択できています。この状態で、編集モードに切り替えてください。すると下のような画面になるはずです。
 
 ![](https://md.trap.jp/uploads/upload_fd07c5e349df047a3f2852c471153de3.png)
 
 立方体の様子が変わって、立方体の編集モードになりました。
+
 :::
 
 :::tip
