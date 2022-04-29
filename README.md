@@ -21,7 +21,7 @@ npm run build
 
 ### 手元でテストする
 
-参考：[Getting Started | VuePress](https://v2.vuepress.vuejs.org/guide/getting-started.html#prerequisites)
+詳細：[Getting Started | VuePress](https://v2.vuepress.vuejs.org/guide/getting-started.html#prerequisites)
 
 ```bash
 // このリポジトリをクローンする
@@ -42,7 +42,7 @@ npm run dev
 
 ### ページを追加/削除する
 
-参考：[Page | VuePress](https://v2.vuepress.vuejs.org/guide/page.html#frontmatter)
+詳細：[Page | VuePress](https://v2.vuepress.vuejs.org/guide/page.html#frontmatter)
 
 mdファイルを追加すればページが勝手に生えます。サイドバーに表示したい場合は[`docs/.vuepress/config.ts`](https://git.trap.jp/d_etteiu8383/modeling-trial/src/branch/master/docs/.vuepress/config.ts)の`themeConfig`を編集する必要があります。
 

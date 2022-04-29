@@ -1,7 +1,3 @@
----
-junbichu: true
----
-
 # Blenderの基本設定・基本操作
 
 まずはBlenderの基本設定・基本操作を説明します。
@@ -27,7 +23,7 @@ junbichu: true
 
 ![Blenderのスプラッシュスクリーン](./imgs/splash_screen.png)
 
-Blenderからの「こんにちは」です。(参考：[Splash Screen(スプラッシュ画面) — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/splash.html))
+Blenderからの「こんにちは」です。(詳細：[Splash Screen(スプラッシュ画面) — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/splash.html))
 
 この画面の右上に表示されている数字が、今利用しているBlenderのバージョン情報です。この実習では**2.8以上**(2.9や、3.0.1など)になっていれば大丈夫。なお、現在の最新版は<blenderVersion />です。
 
@@ -56,7 +52,7 @@ Blenderからの「こんにちは」です。(参考：[Splash Screen(スプラ
 
 といった感じです。
 
-参考：[デフォルトのワークスペース — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/workspaces.html#default-workspaces)
+詳細：[デフォルトのワークスペース — Blender Manual](https://docs.blender.org/manual/ja/3.1/interface/window_system/workspaces.html#default-workspaces)
 
 ## ファイルの保存
 
@@ -65,7 +61,7 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
 
 `.blend`の保存は、特定の3Dモデルやアニメーションを保存するのではなく、**作業途中のデータを作業机ごと保存しておくイメージ**です。
 
-参考：[Assets, Files, & Data System » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/introduction.html), [Opening & Saving — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/blend/open_save.html#saving-files)
+詳細：[Assets, Files, & Data System » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/introduction.html), [Opening & Saving — Blender Manual](https://docs.blender.org/manual/ja/3.1/files/blend/open_save.html#saving-files)
 
 :::tip
 3Dモデルやアニメーションのデータを、**ゲーム制作等で使用するために保存する場合**は別の操作が必要になります。
@@ -103,7 +99,7 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
   ![視点の回転操作](./imgs/view_operation_zoom_optimize.gif)
 - <kbd>Alt</kbd>を押しながら中ボタンドラッグをすると、真正面、真横、真上等からの視点になります。
 
-参考：[Navigation(視点の操作) — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/navigate/navigation.html)
+詳細：[Navigation(視点の操作) — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/navigate/navigation.html)
 
 :::training
 
@@ -115,12 +111,12 @@ Blenderは作業途中のデータをまるまる`.blend`の形式で保存し�
 
 ## オブジェクトモードと編集モード
 
-デフォルトでは画面の中央に立方体が置いてあるはずです。Blenderでは、以下の操作を繰り返してモデリングを行います。
+Blenderでは、以下の操作を繰り返してモデリングを行います。
 
 1. オブジェクトモードで単純な**図形を設置**する
 2. 編集モードで**複雑な形に変形**させる
 
-参考：[シーン & オブジェクト » Objects(オブジェクト) » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/introduction.html), [Modeling(モデリング) » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/modeling/introduction.html)
+詳細：[シーン & オブジェクト » Objects(オブジェクト) » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/introduction.html), [Modeling(モデリング) » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/modeling/introduction.html)
 
 Blenderには、この2操作に対応する"モード"が存在します。
 
@@ -135,7 +131,7 @@ Blenderには、この2操作に対応する"モード"が存在します。
 
 これら2つ以外にも、そのオブジェクトに対応したモードが複数存在します。
 
-参考：[オブジェクトのモード — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/modes.html)
+詳細：[オブジェクトのモード — Blender Manual](https://docs.blender.org/manual/ja/3.1/editors/3dview/modes.html)
 
 ## オブジェクトモードでの基本操作
 
@@ -152,7 +148,7 @@ Blenderには、この2操作に対応する"モード"が存在します。
 
 ![選択したオブジェクトが縁取りされる様子](./imgs/select_object.png)
 
-参考：[選択 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/selecting.html)
+詳細：[選択 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/selecting.html)
 
 ### オブジェクトモードでのオブジェクト削除
 
@@ -160,7 +156,7 @@ Blenderには、この2操作に対応する"モード"が存在します。
 
 ![選択したオブジェクトの削除方法](./imgs/delete_object.png)
 
-参考：[Delete(削除) — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/editing/delete.html)
+詳細：[Delete(削除) — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/editing/delete.html)
 
 :::training
 
@@ -181,7 +177,9 @@ Blenderには、この2操作に対応する"モード"が存在します。
 
 "メッシュ"、"カーブ"、"サーフェス"...等さまざまなオブジェクトを追加できます。
 
-参考：[オブジェクトの種類 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/types.html)
+オブジェクトには様々な種類が存在しますが、今回は"**メッシュ**"という種類のオブジェクトを使用します。
+
+詳細：[オブジェクトの種類 — Blender Manual](https://docs.blender.org/manual/ja/3.1/scene_layout/object/types.html)
 
 :::training
 
@@ -209,11 +207,14 @@ Blenderには、この2操作に対応する"モード"が存在します。
 
 :::training
 
-立方体を再度選択してください。オレンジで縁取られていれば選択できています。この状態で、編集モードに切り替えてください。すると下のような画面になるはずです。
+1. 立方体を再度選択してください。オレンジで縁取られていれば選択できています。
+2. 立方体を選択した状態で、編集モードに切り替えてください。
 
-![](https://md.trap.jp/uploads/upload_fd07c5e349df047a3f2852c471153de3.png)
+![編集モードへの切り替え方法](./imgs/edit_cube.png)
 
-立方体の様子が変わって、立方体の編集モードになりました。
+すると下のような画面になるはずです。立方体の様子が変わって、立方体の編集モードになりました。
+
+![編集モードの画面](./imgs/edit_mode.png)
 
 :::
 
@@ -228,17 +229,47 @@ Blenderでは、ボタンや数値の入力ボックスなど、クリックで�
 
 何を選択できるかは画面左上で選択でき、それぞれ左から頂点、辺、面を選択できるようになります。(数字キーの<kbd>1</kbd>、<kbd>2</kbd>、<kbd>3</kbd>を押すことでもそれぞれ切り替えることができます)
 
-![](https://md.trap.jp/uploads/upload_9a65ea9273e800fcdb187c953fd1c4be.png)
+![選択モードの切り替え方法](./imgs/select_mode.png)
 
-<kbd>Shift</kbd>+左クリック で**複数選択**できます。
+<kbd>Shift</kbd> + 左クリック で**複数選択**できます。
 
-<kbd>A</kbd>を押すとそのオブジェクト内の頂点等を**全選択**できます。二連続で押すと、**全選択解除**出来ます。
+左ドラッグで**矩形選択**ができます
 
-<kbd>Ctrl</kbd>+<kbd>L</kbd>(Macなら<kbd>⌘command</kbd>+<kbd>L</kbd>)で、現在選択しているものと**繋がっているもの**を全て選択できます(リンク(Link)選択)
+<kbd>A</kbd>を押すとそのオブジェクト内の頂点等を**全選択**できます。二連続で押す / <kbd>Alt</kbd> + <kbd>A</kbd>で、**全選択解除**出来ます。
+
+<kbd>Ctrl</kbd> + <kbd>L</kbd>(Macなら<kbd>⌘command</kbd> + <kbd>L</kbd>)で、現在選択しているものと**繋がっているもの**を全て選択できます(リンク(Link)選択)
+
+詳細：[Modeling(モデリング) » Meshes(メッシュ) » 選択 » はじめに — Blender Manual](https://docs.blender.org/manual/ja/3.1/modeling/meshes/selecting/introduction.html)
+
+:::tip
+
+画面右上の"**透過表示を切り替え**"をクリックすることで、面部分が透けて、本来見えない位置にあるアイテムを選択できるようになります。
+
+![透過表示の切替ボタン](./imgs/change_x_ray_mode.png)
+
+透過表示をオンにすると、デフォルトの立方体は以下のように見えます。
+
+![透過表示をオンにした状態](./imgs/x_ray_on.png)
+
+:::
 
 ### 編集モードでの削除
 
+オブジェクトモード同様に、編集モードでも<kbd>X</kbd>または<kbd>Delete</kbd>でアイテムを削除することができます。
+
+メッシュの編集モードでは、削除方法を選択する必要があります。
+
+![削除方法の選択](./imgs/select_delete_mode.png)
+
+「頂点」「辺」「面」等、そのまま削除する削除方法のほかに、「溶解」という削除方法も存在します。溶解は、「穴が開かないようにそのアイテムだけ削除する」といった削除方法です。
+
+詳細：[削除 & 溶解 — Blender Manual](https://docs.blender.org/manual/ja/3.1/modeling/meshes/editing/mesh/delete.html)
+
 ### 編集モードでの追加
+
+オブジェクトモード同様、編集モードでも左上の「追加」メニューからメッシュを追加することができます。この場合、最初からあったメッシュと合わせて1つのオブジェクトとして扱われます。
+
+![編集モードでのメッシュの追加](./imgs/add_mesh.png)
 
 ## 取り消しとやり直し
 
@@ -251,33 +282,36 @@ Blenderでは、ボタンや数値の入力ボックスなど、クリックで�
 編集モードでは、画面左に**ツール一覧**が表示されます。
 
 もし表示されていない場合は、画面左端上方にある小さな三角マークをクリックするか、<kbd>T</kbd>を押すことで表示できます。
-![](https://md.trap.jp/uploads/upload_0749d0b38baed242c9f0af19c8b4f32a.png)
+
+![ツール一覧の表示方法](./imgs/open_tool_menu.png)
 
 ツール一覧は<kbd>T</kbd>を押すと表示/非表示が切り替わるので、見つからなかったり、消えてしまっても慌てずに<kbd>T</kbd>を押してください。
 
-ツール一覧が表示してあるとこうなっているはず
+ツール一覧が表示してあると以下のようになっているはずです。
 
-![](https://md.trap.jp/uploads/upload_1db2b315ca92965ce316d0c2f821193a.png)
+![ツール一覧](./imgs/tool_menu.png)
 
 ここでは特に重要なツールの紹介をします。これらは今回の実習ではもちろん、通常の制作でもよく使うことになるので覚えておいてください。
 
 ### 選択
 
-![](https://md.trap.jp/uploads/upload_7fb7aa4535003627905a9f8b68b5b238.png)
+![選択ツール](./imgs/tool_select.png)
 
-ツール一覧の一番上のマークをクリックすると、選択ツールになります。これは先ほど説明した、モノの選択ができるツールです。
+ツール一覧の一番上のマークをクリックすると、選択ツールになります。これは先ほど説明した、モノの**選択**ができるツールです。
 
 マークを長押しすることで、**ボックス選択**やサークル選択等を切り替えることができますが、今回はボックス選択を使うことをお勧めします。
-![](https://md.trap.jp/uploads/upload_23ebd6dce76ca48d3b7d0bf403a7003a.png)
+
+![選択ツールの切り替え](./imgs/tool_select_menu.png)
 
 ### 移動
 
-![](https://md.trap.jp/uploads/upload_fdcc39dc7cf9ead9a81a17e7e3259174.png)
+![移動ツール](./imgs/tool_grab.png)
 
 十字の矢印のマークは**移動**ツールです。選択した頂点や辺、面を移動させることができます。移動ツールを選んだまま頂点等の選択も可能です。
 
 下の画像は移動ツールで立方体の頂点を選択している状態です。
-![](https://md.trap.jp/uploads/upload_6f86edbb5b32e2360dcb1a0c97d7f39e.png)
+
+![移動ツールのマニピュレータ](./imgs/tool_grab_manipulator.png)
 
 画面に表示された赤・青・緑の矢印をドラッグすることで、その矢印に沿って選択物の移動ができます。
 この赤青緑は"**マニピュレータ**"と呼びます。
@@ -286,35 +320,63 @@ Blenderでは、ボタンや数値の入力ボックスなど、クリックで�
 
 <kbd>G</kbd>を押すことでも、選択物の移動ができます(Grabの頭文字)。この場合は、左クリックで移動を確定します。
 
-移動の途中で<kbd>Shift</kbd>を押すと、**ゆっくり移動**させることができます。細かい調整がしたい場合は活用してみてください。
+移動の途中で<kbd>Shift</kbd>を長押しすると、**ゆっくり移動**させることができます。細かい調整がしたい場合は活用してみてください。
+
+移動の途中で<kbd>Ctrl</kbd>を長押しすると、**スナップ移動**をさせることができます。きっちり移動させたい場合は活用してみてください。
 
 ### 回転
 
-![](https://md.trap.jp/uploads/upload_491485849515fc08cda19bad9d4d14ad.png)
+![回転ツール](./imgs/tool_rotate.png)
 
 いかにも回転させそうなマークは**回転**ツールです。選択した辺または面を回転させることができます。移動ツールと同様に、マニピュレータで軸に沿った回転、白い円のドラッグで自由に回転できます。
 
 <kbd>R</kbd>を押すことでも、選択物の移動ができます(Rotateの頭文字)。この場合は、左クリックで回転を確定します。
 
-こちらも、回転の途中で<kbd>Shift</kbd>を押すと、ゆっくり回転させることができます。
+こちらも、回転の途中で<kbd>Shift</kbd>を押すとゆっくり回転、<kbd>Ctrl</kbd>を押すと角度でスナップする回転をさせることができます。
 
-![](https://md.trap.jp/uploads/upload_5d831c3cf84eb4dc17b810a75c5af80d.png)
+![回転ツールのマニピュレータ](./imgs/tool_rotate_manipulator.png)
 
 ### スケール
 
-![](https://md.trap.jp/uploads/upload_dda56967dd247d5eaf846472b69ec802.png)
+![スケールツール](./imgs/tool_scale.png)
 
 **スケール**ツールを使うと、選択物の大きさを変えることができます。これも、マニピュレータで軸に沿った拡縮、白い円のドラッグで自由に拡縮できます。
 
 <kbd>S</kbd>を押すことでも、選択物の移動ができます(Scaleの頭文字)。この場合は、左クリックで拡縮を確定します。
 
-こちらも、拡縮の途中で<kbd>Shift</kbd>を押すと、ゆっくり拡縮させることができます。
+こちらも、拡縮の途中で<kbd>Shift</kbd>を押すとゆっくり拡縮、<kbd>Ctrl</kbd>を押すとスナップする拡縮をさせることができます。
 
-![](https://md.trap.jp/uploads/upload_a318d52f765ba0d0764bffeb347752a7.png)
+![スケールツールのマニピュレータ](./imgs/tool_scale_manipulator.png)
 
 :::training
 
-### 移動・回転・スケールの操作に慣れよう
+### 編集モードの操作に慣れよう
 
-立方体の頂点や辺、面を移動/回転/拡縮して変形させてみよう。変形した立方体はこの後の実習で使わないので自由に変形してとにかく操作に慣れよう。
+立方体の頂点や辺、面を選択/削除/メッシュ追加/移動/回転/拡縮して変形させてみよう。変形した立方体はこの後の実習で使わないので自由に変形してとにかく操作に慣れよう。
+
+:::
+
+:::tip 基本操作のまとめ
+
+- 保存：<kbd>Ctrl</kbd> + <kbd>S</kbd>
+- 視点の回転：マウス中ボタンドラッグ
+- 視点の平行移動：<kbd>Shift</kbd> + マウス中ボタンドラッグ
+- 画面のズーム：マウススクロール
+- モード切替：画面左上のボタン または <kbd>Tab</kbd>
+- 取り消し：<kbd>Ctrl</kbd> + <kbd>Z</kbd>
+- やり直し：<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd>
+- オブジェクトモード
+  - オブジェクト選択：左クリック
+  - 複数選択：<kbd>Shift</kbd> + 左クリック
+  - オブジェクト削除：<kbd>X</kbd> / <kbd>Delete</kbd>
+  - オブジェクト追加：画面左上の"追加"ボタン
+- 編集モード
+  - 選択：左クリック
+  - 選択対象切り替え：画面左上のボタン
+  - 全選択：<kbd>A</kbd>
+  - 透過表示切り替え：画面右上のボタン
+  - 削除：<kbd>X</kbd> / <kbd>Delete</kbd>
+  - 追加：画面左上の"追加"ボタン
+  - ツール表示切り替え：<kbd>T</kbd>
+
 :::
