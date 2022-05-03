@@ -1,6 +1,6 @@
 # 新歓モデリング体験会資料
 
-新刊モデリング体験会資料のリポジトリ  。
+新歓モデリング体験会資料のリポジトリ。
 体験会資料URL:<https://3d-trial-2022.trap.games/>
 
 powered by [vuepress-next](https://github.com/vuepress/vuepress-next)
@@ -17,7 +17,7 @@ npm run build
 
 ## 内容を更新したい場合
 
-この体験会試料は[vuepress-next](https://github.com/vuepress/vuepress-next)を利用して作成しています。詳細は[Document](https://v2.vuepress.vuejs.org/)を参照してください。
+この体験会資料は[vuepress-next](https://github.com/vuepress/vuepress-next)を利用して作成しています。詳細は[Document](https://v2.vuepress.vuejs.org/)を参照してください。
 
 ### 手元でテストする
 
