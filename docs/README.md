@@ -2,7 +2,7 @@
 home: true
 heroText: traP 新歓3DCG体験会
 tagline:
-footer: Copyright © 2022 d_etteiu8383
+footer: Copyright © 2022 traP
 ---
 
 <!-- markdownlint-disable-file MD041 -->
