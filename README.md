@@ -4,6 +4,8 @@
 体験会資料URL:<https://3d-trial-2022.trap.games/>
 作成:@d_etteiu8383
 
+自由にforkしたりして使ってください。画像等の使用の際も@d_etteiu8383の許可は不要です。
+
 powered by [vuepress-next](https://github.com/vuepress/vuepress-next)
 
 ```bash
