@@ -46,7 +46,7 @@
 
 当日の連絡等はこのDiscordサーバーの[📢重要連絡【3dcg体験会】](https://discord.com/channels/956885476986482730/966918874148798585)というテキストチャンネルで行います。
 
-![traP新歓Discordサーバー内の3DCG体験会関連チャンネルの一覧](./imgs/2022-04-22-22-46-17.png)
+![traP新歓Discordサーバー内の3DCG体験会関連チャンネルの一覧](./imgs/preparation_discord_channels.png)
 
 - 📢重要連絡
   - 資料リンクなどをこのテキストチャンネルで共有します
