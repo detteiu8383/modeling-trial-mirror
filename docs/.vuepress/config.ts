@@ -5,7 +5,7 @@ import { path } from '@vuepress/utils'
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ja',
   title: 'traP 3DCG体験会',
-  description: '新入生向け 東京工業大学デジタル創作同好会traP 3DCG体験会',
+  description: '東京工業大学デジタル創作同好会traPが主催する、新入生向け3DCG体験会の資料ページです。座学編で3DCGについて俯瞰的に学び、実習編で簡単なアニメーションを作成します。',
   // base: '/modeling-trial/',
   head: [['link', { rel: 'icon', href: '/images/logo/3dcg_logo.ico' }]],
 
